@@ -1,0 +1,30 @@
+DESCRIPCIÓN:
+CLASES: EstadoJuego
+        Célula
+        Tablero
+        Juego
+EstadoJuego
+Atributos Básicos:termindado
+                  empezado
+Métodos: getters (estadoJuego)
+         toString
+Célula
+Atributos Básicos: viva
+                   muerta
+Métodos: getters (celula)
+         toString
+
+
+Tablero
+Atributos Básicos: filas
+                   columnas
+                   numGeneraciones
+Atributos Derivados: Celulas [][] Celulas
+estadoJuego
+Métodos: 
+getters
+CRUD
+Juego (vista)
+
+
+                  
