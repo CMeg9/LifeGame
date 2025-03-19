@@ -11,11 +11,15 @@ import com.badlogic.gdx.utils.ScreenUtils;
 public class Main extends ApplicationAdapter {
     private SpriteBatch batch;
     private Texture image;
+    private Tablero tablero;
+
 
     @Override
     public void create() {
         batch = new SpriteBatch();
         image = new Texture("libgdx.png");
+        Tablero tablero = new Tablero(50,50,200,0);
+
     }
 
     @Override
@@ -24,6 +28,9 @@ public class Main extends ApplicationAdapter {
         batch.begin();
         batch.draw(image, 140, 210);
         batch.end();
+
+
+
     }
 
     @Override

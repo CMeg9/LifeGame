@@ -39,8 +39,8 @@ android {
     multiDexEnabled true
   }
   compileOptions {
-    sourceCompatibility "8"
-    targetCompatibility "8"
+    sourceCompatibility "17"
+    targetCompatibility "17"
     coreLibraryDesugaringEnabled true
   }
   buildTypes {
@@ -49,6 +49,7 @@ android {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
   }
+  buildToolsVersion '34.0.0'
 }
 
 repositories {
